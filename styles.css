@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('fibonacci.webp'); /* Ustawienie tła */
+    background-size: cover;  /* Dopasowanie tła do rozmiaru ekranu */
+    background-position: center; /* Wycentrowanie tła */
+    background-repeat: no-repeat; /* Uniknięcie powtarzania tła */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.85); /* Półprzezroczyste tło dla treści */
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 36px;
+    color: #1e90ff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 18px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid #1e90ff;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4682b4;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+#fibonacciChart {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Stylizacja dla stopki 
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer p {
+    margin: 0;
+}*/
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Lobster', cursive; /* Dodaj tę linię */
+}
