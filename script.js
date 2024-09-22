@@ -2,9 +2,10 @@ document.getElementById('calculateButton').addEventListener('click', function() 
     const input = document.getElementById('fibonacciInput').value;
     const result = document.getElementById('result');
     const chartCanvas = document.getElementById('fibonacciChart');
-
-    if (input === "" || input < 0) {
-        result.textContent = "Please enter a valid number.";
+    
+    const numberInput = Number(input);
+    if (isNaN(numberInput) || !Number.isInteger(numberInput) || numberInput < 0) {
+        result.textContent = "Please enter a valid non-negative integer.";
         return;
     }
 
@@ -16,9 +17,14 @@ document.getElementById('calculateButton').addEventListener('click', function() 
         return sequence;
     };
 
-    const fibSequence = fibonacci(input);
+    const fibSequence = fibonacci(numberInput);
 
-    result.textContent = `Fibonacci(${input}) = ${fibSequence[input]}`;
+    if (!Array.isArray(fibSequence) || fibSequence.length === 0) {
+        result.textContent = "Error calculating the Fibonacci sequence.";
+        return;
+    }
+
+    result.textContent = `Fibonacci(${numberInput}) = ${fibSequence[numberInput]}`;
 
     // Konfiguracja wykresu
     const labels = [...Array(fibSequence.length).keys()];
@@ -61,6 +67,10 @@ document.getElementById('calculateButton').addEventListener('click', function() 
         window.fibChart.destroy();
     }
 
-    // Stworzenie nowego wykresu
-    window.fibChart = new Chart(chartCanvas, config);
+    // Stworzenie nowego wykresu, jeśli dane są poprawne
+    if (fibSequence.every(num => Number.isFinite(num))) {
+        window.fibChart = new Chart(chartCanvas, config);
+    } else {
+        result.textContent = "Invalid data for chart generation.";
+    }
 });

@@ -84,22 +84,6 @@ button:hover {
         transform: translateY(0);
     }
 }
-/* Stylizacja dla stopki 
-footer {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;
-    border-radius: 5px;
-}
-
-footer p {
-    margin: 0;
-}*/
 
 footer {
     position: absolute;
@@ -111,5 +95,5 @@ footer {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
     border-radius: 5px;
-    font-family: 'Lobster', cursive; /* Dodaj tę linię */
+    font-family: 'Montserrat:ital', cursive; /* Dodaj tę linię */
 }
