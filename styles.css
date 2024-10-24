@@ -6,7 +6,7 @@ box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
     background-image: url('fibonacci.webp'); /* Ustawienie tła */
     background-size: cover;  /* Dopasowanie tła do rozmiaru ekranu */
     background-position: center; /* Wycentrowanie tła */
