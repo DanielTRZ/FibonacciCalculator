@@ -10,7 +10,7 @@ font-family: 'Roboto', sans-serif;
 background-image: url('fibonacci.webp'); /* Ustawienie tła */
 background-size: cover;  /* Dopasowanie tła do rozmiaru ekranu */
 background-position: center; /* Wycentrowanie tła */
-    background-repeat: no-repeat; /* Uniknięcie powtarzania tła */
+background-repeat: no-repeat; /* Uniknięcie powtarzania tła */
     color: #333;
     display: flex;
     justify-content: center;
