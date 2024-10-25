@@ -30,7 +30,7 @@ header h1 {
 font-size: 36px;
 color: #1e90ff;
 margin-bottom: 20px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 input[type="number"] {
