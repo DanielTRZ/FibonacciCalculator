@@ -12,7 +12,7 @@ background-size: cover;  /* Dopasowanie tła do rozmiaru ekranu */
 background-position: center; /* Wycentrowanie tła */
 background-repeat: no-repeat; /* Uniknięcie powtarzania tła */
 color: #333;
-    display: flex;
+display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
