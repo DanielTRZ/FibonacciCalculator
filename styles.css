@@ -19,7 +19,7 @@ height: 100vh;
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.85); /* Półprzezroczyste tło dla treści */
+background: rgba(255, 255, 255, 0.85); /* Półprzezroczyste tło dla treści */
     padding: 40px;
     border-radius: 15px;
     text-align: center;
