@@ -77,7 +77,7 @@ animation: fadeIn 1.5s ease;
 @keyframes fadeIn {
 from {
 opacity: 0;
-        transform: translateY(-30px);
+transform: translateY(-30px);
     }
     to {
         opacity: 1;
