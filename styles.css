@@ -71,7 +71,7 @@ height: auto;
 }
 
 .content {
-    animation: fadeIn 1.5s ease;
+animation: fadeIn 1.5s ease;
 }
 
 @keyframes fadeIn {
