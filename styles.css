@@ -86,7 +86,7 @@ transform: translateY(0);
 }
 
 footer {
-    position: absolute;
+position: absolute;
     bottom: 10px;
     width: 100%;
     text-align: center;
