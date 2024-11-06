@@ -4,7 +4,7 @@ const result = document.getElementById('result');
 const chartCanvas = document.getElementById('fibonacciChart');
     
 const numberInput = Number(input);
-    if (isNaN(numberInput) || !Number.isInteger(numberInput) || numberInput < 0) {
+if (isNaN(numberInput) || !Number.isInteger(numberInput) || numberInput < 0) {
         result.textContent = "Please enter a valid non-negative integer.";
         return;
     }
