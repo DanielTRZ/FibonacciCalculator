@@ -1,7 +1,7 @@
 document.getElementById('calculateButton').addEventListener('click', function() {
 const input = document.getElementById('fibonacciInput').value;
 const result = document.getElementById('result');
-    const chartCanvas = document.getElementById('fibonacciChart');
+const chartCanvas = document.getElementById('fibonacciChart');
     
     const numberInput = Number(input);
     if (isNaN(numberInput) || !Number.isInteger(numberInput) || numberInput < 0) {
