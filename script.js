@@ -1,6 +1,6 @@
 document.getElementById('calculateButton').addEventListener('click', function() {
 const input = document.getElementById('fibonacciInput').value;
-    const result = document.getElementById('result');
+const result = document.getElementById('result');
     const chartCanvas = document.getElementById('fibonacciChart');
     
     const numberInput = Number(input);
