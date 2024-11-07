@@ -15,7 +15,7 @@ for (let i = 2; i <= num; i++) {
 sequence.push(sequence[i - 1] + sequence[i - 2]);
 }
 return sequence;
-    };
+};
 
     const fibSequence = fibonacci(numberInput);
 
