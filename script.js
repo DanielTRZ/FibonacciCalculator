@@ -20,7 +20,7 @@ return sequence;
 const fibSequence = fibonacci(numberInput);
 
 if (!Array.isArray(fibSequence) || fibSequence.length === 0) {
-    result.textContent = "Error calculating the Fibonacci sequence.";
+result.textContent = "Error calculating the Fibonacci sequence.";
         return;
     }
 
