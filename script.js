@@ -9,7 +9,7 @@ result.textContent = "Please enter a valid non-negative integer.";
 return;
 }
 
-    const fibonacci = (num) => {
+const fibonacci = (num) => {
         let sequence = [0, 1];
         for (let i = 2; i <= num; i++) {
             sequence.push(sequence[i - 1] + sequence[i - 2]);
