@@ -7,7 +7,7 @@ const numberInput = Number(input);
 if (isNaN(numberInput) || !Number.isInteger(numberInput) || numberInput < 0) {
 result.textContent = "Please enter a valid non-negative integer.";
 return;
-    }
+}
 
     const fibonacci = (num) => {
         let sequence = [0, 1];
