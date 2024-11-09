@@ -28,7 +28,7 @@ result.textContent = `Fibonacci(${numberInput}) = ${fibSequence[numberInput]}`;
 
 // Konfiguracja wykresu
     const labels = [...Array(fibSequence.length).keys()];
-    const data = {
+const data = {
         labels: labels,
         datasets: [{
             label: 'Fibonacci Sequence',
