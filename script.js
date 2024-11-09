@@ -24,7 +24,7 @@ result.textContent = "Error calculating the Fibonacci sequence.";
 return;
 }
 
-    result.textContent = `Fibonacci(${numberInput}) = ${fibSequence[numberInput]}`;
+result.textContent = `Fibonacci(${numberInput}) = ${fibSequence[numberInput]}`;
 
     // Konfiguracja wykresu
     const labels = [...Array(fibSequence.length).keys()];
