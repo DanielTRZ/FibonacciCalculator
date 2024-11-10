@@ -30,7 +30,7 @@ result.textContent = `Fibonacci(${numberInput}) = ${fibSequence[numberInput]}`;
 const labels = [...Array(fibSequence.length).keys()];
 const data = {
 labels: labels,
-    datasets: [{
+datasets: [{
             label: 'Fibonacci Sequence',
             backgroundColor: '#1e90ff',
             borderColor: '#4682b4',
