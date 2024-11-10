@@ -29,7 +29,7 @@ result.textContent = `Fibonacci(${numberInput}) = ${fibSequence[numberInput]}`;
 // Konfiguracja wykresu
 const labels = [...Array(fibSequence.length).keys()];
 const data = {
-    labels: labels,
+labels: labels,
         datasets: [{
             label: 'Fibonacci Sequence',
             backgroundColor: '#1e90ff',
