@@ -33,7 +33,7 @@ labels: labels,
 datasets: [{
 label: 'Fibonacci Sequence',
 backgroundColor: '#1e90ff',
-            borderColor: '#4682b4',
+         borderColor: '#4682b4',
             data: fibSequence,
             fill: false,
         }]
