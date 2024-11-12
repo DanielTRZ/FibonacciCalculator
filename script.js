@@ -36,7 +36,7 @@ backgroundColor: '#1e90ff',
 borderColor: '#4682b4',
 data: fibSequence,
 fill: false,
-    }]
+}]
     };
 
     const config = {
