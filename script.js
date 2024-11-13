@@ -40,7 +40,7 @@ fill: false,
 };
 
 const config = {
-        type: 'line',
+    type: 'line',
         data: data,
         options: {
             responsive: true,
