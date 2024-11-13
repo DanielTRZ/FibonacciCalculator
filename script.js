@@ -39,7 +39,7 @@ fill: false,
 }]
 };
 
-    const config = {
+const config = {
         type: 'line',
         data: data,
         options: {
