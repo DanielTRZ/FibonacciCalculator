@@ -42,7 +42,7 @@ fill: false,
 const config = {
 type: 'line',
 data: data,
-    options: {
+options: {
 responsive: true,
             scales: {
                 x: {
