@@ -46,7 +46,7 @@ options: {
 responsive: true,
 scales: {
 x: {
-                title: {
+            title: {
                     display: true,
                         text: 'n-th Fibonacci Number'
                     }
