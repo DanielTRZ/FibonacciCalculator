@@ -44,7 +44,7 @@ type: 'line',
 data: data,
 options: {
 responsive: true,
-        scales: {
+    scales: {
                 x: {
                     title: {
                         display: true,
