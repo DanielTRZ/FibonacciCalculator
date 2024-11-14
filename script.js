@@ -43,7 +43,7 @@ const config = {
 type: 'line',
 data: data,
         options: {
-            responsive: true,
+         responsive: true,
             scales: {
                 x: {
                     title: {
