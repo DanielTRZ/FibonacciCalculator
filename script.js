@@ -41,7 +41,7 @@ fill: false,
 
 const config = {
 type: 'line',
-        data: data,
+    data: data,
         options: {
             responsive: true,
             scales: {
