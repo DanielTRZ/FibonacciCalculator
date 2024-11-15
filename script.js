@@ -51,7 +51,7 @@ display: true,
 text: 'n-th Fibonacci Number'
 }
 },
-            y: {
+        y: {
                     title: {
                         display: true,
                         text: 'Value'
