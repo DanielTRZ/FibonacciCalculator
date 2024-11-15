@@ -50,7 +50,7 @@ title: {
 display: true,
 text: 'n-th Fibonacci Number'
 }
-        },
+    },
                 y: {
                     title: {
                         display: true,
