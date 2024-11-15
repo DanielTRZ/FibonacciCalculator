@@ -48,7 +48,7 @@ scales: {
 x: {
 title: {
 display: true,
-                    text: 'n-th Fibonacci Number'
+                text: 'n-th Fibonacci Number'
                     }
                 },
                 y: {
