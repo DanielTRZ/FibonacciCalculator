@@ -54,7 +54,7 @@ text: 'n-th Fibonacci Number'
 y: {
 title: {
 display: true,
-                text: 'Value'
+            text: 'Value'
                     },
                     beginAtZero: true
                 }
