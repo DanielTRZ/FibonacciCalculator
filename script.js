@@ -52,7 +52,7 @@ text: 'n-th Fibonacci Number'
 }
 },
 y: {
-        title: {
+    title: {
                         display: true,
                         text: 'Value'
                     },
