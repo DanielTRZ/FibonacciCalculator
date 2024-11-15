@@ -53,7 +53,7 @@ text: 'n-th Fibonacci Number'
 },
 y: {
 title: {
-                    display: true,
+                display: true,
                         text: 'Value'
                     },
                     beginAtZero: true
