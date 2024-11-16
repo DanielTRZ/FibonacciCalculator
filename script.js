@@ -56,7 +56,7 @@ title: {
 display: true,
 text: 'Value'
 },
-             beginAtZero: true
+            beginAtZero: true
                 }
             }
         }
