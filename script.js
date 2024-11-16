@@ -57,7 +57,7 @@ display: true,
 text: 'Value'
 },
 beginAtZero: true
-        }
+    }
             }
         }
     };
