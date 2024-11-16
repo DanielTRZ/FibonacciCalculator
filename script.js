@@ -55,7 +55,7 @@ y: {
 title: {
 display: true,
 text: 'Value'
-        },
+    },
                 beginAtZero: true
                 }
             }
