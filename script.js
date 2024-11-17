@@ -69,7 +69,7 @@ beginAtZero: true
 
     // Stworzenie nowego wykresu, jeśli dane są poprawne
     if (fibSequence.every(num => Number.isFinite(num))) {
-        window.fibChart = new Chart(chartCanvas, config);
+    window.fibChart = new Chart(chartCanvas, config);
 } else {
 result.textContent = "Invalid data for chart generation.";
 }
