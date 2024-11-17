@@ -63,7 +63,7 @@ beginAtZero: true
 };
 
 // Usunięcie starego wykresu, jeśli istnieje
-    if (window.fibChart) {
+if (window.fibChart) {
         window.fibChart.destroy();
 }
 
