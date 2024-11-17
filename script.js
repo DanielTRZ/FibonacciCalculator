@@ -62,7 +62,7 @@ beginAtZero: true
 }
 };
 
-    // Usunięcie starego wykresu, jeśli istnieje
+// Usunięcie starego wykresu, jeśli istnieje
     if (window.fibChart) {
         window.fibChart.destroy();
 }
