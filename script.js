@@ -64,7 +64,7 @@ beginAtZero: true
 
 // Usunięcie starego wykresu, jeśli istnieje
 if (window.fibChart) {
-        window.fibChart.destroy();
+    window.fibChart.destroy();
 }
 
 // Stworzenie nowego wykresu, jeśli dane są poprawne
