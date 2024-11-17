@@ -67,7 +67,7 @@ beginAtZero: true
         window.fibChart.destroy();
     }
 
-    // Stworzenie nowego wykresu, jeśli dane są poprawne
+// Stworzenie nowego wykresu, jeśli dane są poprawne
 if (fibSequence.every(num => Number.isFinite(num))) {
 window.fibChart = new Chart(chartCanvas, config);
 } else {
