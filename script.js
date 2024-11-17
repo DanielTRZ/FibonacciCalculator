@@ -58,7 +58,7 @@ text: 'Value'
 },
 beginAtZero: true
 }
-         }
+        }
     }
     };
 
