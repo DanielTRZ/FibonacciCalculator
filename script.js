@@ -59,7 +59,7 @@ text: 'Value'
 beginAtZero: true
 }
 }
-    }
+}
     };
 
     // Usunięcie starego wykresu, jeśli istnieje
